@@ -32,7 +32,8 @@ CREATE TABLE retail_sales (
 -- Total Records
 SELECT COUNT(*) FROM retail_sales;
 
--- Check NULL values
+### Check NULL values
+```sql
 SELECT * FROM retail_sales
 WHERE transactions_id IS NULL
 OR sale_date IS NULL
@@ -45,6 +46,7 @@ OR quantity IS NULL
 OR price_per_unit IS NULL
 OR cogs IS NULL
 OR total_sale IS NULL;
+```
 
 ### Delete NULL values
 ```sql
@@ -205,5 +207,5 @@ GROUP BY sale_date;
 
 ---
 
-## 👨‍💻 Author
+##  Author
 Parthiban  
