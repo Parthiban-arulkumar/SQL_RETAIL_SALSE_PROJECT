@@ -1,6 +1,6 @@
-# 🛒 Retail Sales SQL Project
+# Retail Sales SQL Project
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes retail sales data using SQL, covering data cleaning, transformation, and business insights extraction.
 
 It demonstrates practical SQL skills required for a Data Analyst role, including:
@@ -12,14 +12,14 @@ It demonstrates practical SQL skills required for a Data Analyst role, including
 
 ---
 
-## 🗂️ Database Setup
+##  Database Setup
 
 CREATE DATABASE NEW_PROJECT_1;
 USE NEW_PROJECT_1;
 
 ---
 
-## 🧾 Table Creation
+## Table Creation
 
 CREATE TABLE retail_sales (
     transactions_id INT PRIMARY KEY,
@@ -37,7 +37,7 @@ CREATE TABLE retail_sales (
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 -- Check NULL values
 SELECT * FROM retail_sales
@@ -79,7 +79,7 @@ SET category = LOWER(TRIM(category));
 
 ---
 
-## 📊 SQL Analysis Queries
+## SQL Analysis Queries
 
 -- 1. Filter clothing sales
 SELECT transactions_id, category, quantity, total_sale, sale_date
@@ -198,18 +198,18 @@ GROUP BY sale_date;
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - SQL (MySQL)
 - VS Code / MySQL Workbench
 
 ---
 
-## 👨‍💻 Author
+## Author
 Parthiban  
 Aspiring Data Analyst  
 Skills: SQL | Python | Power BI
 
 ---
 
-## ⭐ Support
-If you like this project, give it a ⭐ on GitHub!
+##  Support
+If you like this project, give it a like on GitHub!
