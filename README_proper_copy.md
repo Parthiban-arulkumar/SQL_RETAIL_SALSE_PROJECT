@@ -32,8 +32,8 @@ CREATE TABLE retail_sales (
 -- Total Records
 SELECT COUNT(*) FROM retail_sales;
 
-### Check NULL values
-```sql
+ Check NULL values
+
 SELECT * FROM retail_sales
 WHERE transactions_id IS NULL
 OR sale_date IS NULL
