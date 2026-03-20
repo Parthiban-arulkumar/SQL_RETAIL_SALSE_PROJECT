@@ -1,4 +1,4 @@
-# 🛒 Retail Sales Analysis SQL Project
+#  Retail Sales Analysis SQL Project
 
 ## 1. Database Setup
 
@@ -46,7 +46,8 @@ OR price_per_unit IS NULL
 OR cogs IS NULL
 OR total_sale IS NULL;
 
--- Delete NULL values
+### Delete NULL values
+```sql
 DELETE FROM retail_sales
 WHERE transactions_id IS NULL
 OR sale_date IS NULL
@@ -59,8 +60,10 @@ OR quantity IS NULL
 OR price_per_unit IS NULL
 OR cogs IS NULL
 OR total_sale IS NULL;
+```
 
--- Standardize category
+### Standardize category
+```sql
 UPDATE retail_sales
 SET category = LOWER(TRIM(category));
 ```
